@@ -2,6 +2,9 @@
 
 A modern, responsive book-tracking website. Browse a collection of books, open a detailed page for each one, mark books as **read**, save others to a **wishlist**, and see how many pages each of your books holds in an animated chart.
 
+GITHUB REPOSITORY LINK: [ https://github.com/mrinal-kanti-apon/book-vibe-is-your-vibe-01 ]
+LIVE LINK: [ https://books-vibe-for-book-readers.netlify.app/ ]
+
 
 ## ✨ Features
 
@@ -24,7 +27,7 @@ A modern, responsive book-tracking website. Browse a collection of books, open a
 | Styling | [Tailwind CSS](https://tailwindcss.com/) |
 | Charts | Hand-written SVG (no chart library) |
 | Data | Local JSON file (`public/booksData.json`) |
-| Hosting | [Vercel](https://vercel.com/) |
+| Hosting | [Netlify](https://netlify.app/) |
 
 ## 🚀 Getting Started
 
@@ -125,10 +128,10 @@ Your read list and wishlist are saved in the browser's `localStorage` under the 
 
 ## 🌍 Deployment
 
-The easiest way to deploy is with [Vercel](https://vercel.com/):
+The easiest way to deploy is with [Netlify](https://netlify.com/):
 
 1. Push the project to GitHub.
-2. On Vercel, choose **Add New → Project** and import the repository.
+2. On Netlify, choose **Add New → Project** and import the repository.
 3. Keep the default Next.js settings and click **Deploy**.
 
 No environment variables are needed. Every `git push` to `main` redeploys the site automatically.
